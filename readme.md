@@ -6,8 +6,8 @@
 - **Node.js Version:** 20.9.0 (recommended)
 
 ### Backend Setup
-1. Open a terminal and navigate to the `fashionshop` folder.
-2. Create .env file with shopify details like below
+1. Open a terminal and navigate to the `fashionshop` root folder.
+2. Create .env file with shopify details like below in root folder
     ```bash
    PORT=3000
    SHOPIFY_API_URL=https://your-store-name.myshopify.com/admin/api/2024-01
