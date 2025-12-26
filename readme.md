@@ -7,19 +7,25 @@
 
 ### Backend Setup
 1. Open a terminal and navigate to the `fashionshop` folder.
-2. Run:
+2. Create .env file with shopify details like below
+    ```bash
+   PORT=3000
+   SHOPIFY_API_URL=https://your-store-name.myshopify.com/admin/api/2024-01
+   SHOPIFY_API_TOKEN=shpat_xxxxxxxxxxxxxx
+   ```
+3. Run:
    ```bash
    npm install
    ```
    This installs all backend dependencies.
-3. To start the backend server, run:
+4. To start the backend server, run:
    ```bash
    npm start
    ```
    Or use Visual Studio Code's Run/Debug feature.
    - The backend will run on port **3000** by default.
    - On first start, it will automatically generate `trybuy.db` in the root folder.
-4. To add dummy data to the database, run:
+5. To add dummy data to the database, run:
    ```bash
    node seed.js
    ```
